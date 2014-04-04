@@ -1,0 +1,3 @@
+This is a pretty quick and dirty SQL query (which I ran from the PMA console, electing to export CSV with a header row) and Python script that I used to convert all of the OJS DB metadata which would plausibly be found in article body text to JATS XML stubs for each document (i.e. only containing front matter tags), to be used along with the PDFs themsleves to train https://github.com/CeON/CERMINE.
+
+There are some bugs noted in the Python script which should be effectively papered over.
